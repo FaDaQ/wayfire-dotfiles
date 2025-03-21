@@ -220,7 +220,8 @@
         "exec": "~/.config/waybar/scripts/get_wayfire_title.sh",
         "format": "{}",
         "interval": 1,
-        "format-no-controller": ""
+        "format-no-controller": "",
+        "max-length": 120
     },
 
     // Bluetooth
