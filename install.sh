@@ -6,7 +6,7 @@ cd yay
 makepkg -si
 cd..
 
-yay -S lolcat gum toilet waybar checkupdates-with-aur swaync ttf-jetbrains-mono rofi ninja meson wlroots wayfire-plugins-extra wcm kitty wlogout polkit-gnome ripgrep xdg-desktop-portal-gtk xdg-desktop-portal-wlr blueman bluez-utils pavucontrol
+yay -S lolcat gum toilet waybar checkupdates-with-aur swaync ttf-jetbrains-mono rofi ninja meson wlroots wayfire-plugins-extra wcm kitty wlogout yay -S slurp grim wl-clipboard polkit-gnome ripgrep xdg-desktop-portal-gtk xdg-desktop-portal-wlr blueman bluez-utils pavucontrol 
 # firefox nautilus nautilus-open-any-terminal
 
 #wf-info
