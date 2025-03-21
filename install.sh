@@ -32,9 +32,11 @@ sudo ninja -C build install
 
 cd ..
 mkdir ~/.config/wayfire
-cp -rf waybar/ ~/.config/wayfire/waybar/
-cp -f wayfire.ini ~/.config/wayfire/wayfire.ini/
+cp -rf waybar/ ~/.config/wayfire/
+cp -f wayfire.ini ~/.config/wayfire/wayfire.ini
 
 # создание символических ссылок
+rm -rf ~/.conig/waybar
 ln -s ~/.config/wayfire/waybar/ ~/.config/waybar
+rm -f ~/.config/wayfire.ini
 ln -s ~/.config/wayfire/wayfire.ini ~/.config/wayfire.ini
